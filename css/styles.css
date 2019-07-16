@@ -1,14 +1,26 @@
-a {
+a:link {
+  color: black;
   font-weight: 500;
   font-size: 28px;
 }
 
 a:link {
-  color: black
+  color: black;
 }
 
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
 a:hover {
   color: #32d96a;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
 
 .header-nav {
@@ -35,4 +47,26 @@ a:hover {
 
 .section-spacing {
   margin-top:50px;
+  float: left;
+padding: 120px;
+width: 70%;
+}
+
+.left-panel {
+  background-image: url(../images/portfolio-img-sketch.jpeg);
+  background-size: cover;
+  height: 1000px;
+  float: left;
+  width: 27%;
+  padding: 10px;
+}
+
+.left-panel:after {
+  content: "";
+display: table;
+clear: both;
+}
+
+.left-panel {
+
 }
