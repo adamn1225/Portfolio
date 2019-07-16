@@ -1,0 +1,38 @@
+a {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+a:link {
+  color: black
+}
+
+a:hover {
+  color: #32d96a;
+}
+
+.header-nav {
+  border-bottom: #32d96a;
+  border-bottom-style: solid;
+  border-width: medium;
+}
+
+.header-nav ul li {
+  display: inline;
+  margin: auto 50px;
+}
+
+.logo {
+  color:black;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.logo2 {
+  color:#32d96a;
+  margin-left: 25px;
+}
+
+.section-spacing {
+  margin-top:50px;
+}
