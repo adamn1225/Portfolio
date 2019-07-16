@@ -73,7 +73,7 @@ section:after {
 
 .work-experience {
   margin-top:0px;
-  padding: 30px 0 30px 300px;
+  padding: 30px 0 30px 100px;
   background-color: #081c3b;
   height: 50vh;
 }
@@ -84,6 +84,7 @@ section:after {
 
 .work-experience h4 {
   color: #32d96a;
+  
 }
 
 .work-experience p {
