@@ -1,3 +1,7 @@
+li {
+  list-style: none;
+}
+
 a:link {
   color: black;
   font-weight: 500;
@@ -45,28 +49,71 @@ a:active {
   margin-left: 25px;
 }
 
-.section-spacing {
+.about-me {
   margin-top:50px;
   float: left;
-padding: 120px;
-width: 70%;
+  padding: 120px;
+  width: 70%;
 }
 
 .left-panel {
   background-image: url(../images/portfolio-img-sketch.jpeg);
-  background-size: cover;
-  height: 1000px;
+  background-size: ;
+  height: 580px;
   float: left;
   width: 27%;
   padding: 10px;
 }
 
-.left-panel:after {
+section:after {
   content: "";
-display: table;
-clear: both;
+  display: table;
+  clear: both;
 }
 
-.left-panel {
+.work-experience {
+  margin-top:0px;
+  padding: 30px 0 30px 300px;
+  background-color: #081c3b;
+  height: 50vh;
+}
 
+.work-experience h1 {
+  color: white;
+}
+
+.work-experience h4 {
+  color: #32d96a;
+}
+
+.work-experience p {
+  color: white;
+}
+
+.current-role {
+  display: inline;
+  float:left;
+}
+
+.current-role li {
+  color: white;
+}
+
+.previous-role {
+  float: left;
+  margin-top: 0px;
+  margin-left: 100px;
+}
+
+.previous-role li {
+  color:white;
+}
+
+.social-links {
+  padding: 40px;
+}
+
+.social-links li {
+  display: inline;
+  margin: auto 60px;
 }
