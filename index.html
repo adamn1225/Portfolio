@@ -11,13 +11,12 @@
   <header>
     <div class="header-nav">
       <div class="logo">
-      <h4>ADAM NOAH <span class="logo2"><br />Full Stack Developer</span></h4>
+      <h2><span class="first-initial">ADAM</span><span class ="last-initial">NOAH</span> <span class="logo2"><br />Full Stack Developer</span></h2>
       </div>
       <nav align=center>
         <ul>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Experience</a></li>
-          <li><a href="#">Projects</a></li>
+          <li><a href="#roles">Experience</a></li>
+          <li class="projects"><a href="#projects">Projects</a></li>
           <li><a href="#">Skills</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -36,32 +35,50 @@
   </article>
 </section>
   <article class="work-experience">
-    <h1 style="margin-left: 325px;">Work</h1><br />
+    <a name="roles"></a>
+    <h1 style="margin-left: 270px;">Roles Played</h1><br />
     <div class="current-role">
     <h4>Current Position & Role:</h4>
     <p>Full Stack Web Developer - AV Sound Solutions</p>
-    <li>was responsible for doing this and that</li>
-    <li>was responsible for doing this and that</li>
-    <li>was responsible for doing this and that</li>
-    <li>was responsible for doing this and that</li>
   </div>
   <div class="previous-role">
-    <h4>Previous Role & Position:</h4>
+    <h4>Previous Position & role:</h4>
     <p>Front End Web Developer - Nationwide Transport Services</p>
-    <li>was responsible for doing this and that</li>
-    <li>was responsible for doing this and that</li>
-    <li>was responsible for doing this and that</li>
-    <li>was responsible for doing this and that</li>
   </div>
-  </article>
+</article>
+
+<article class="projects">
+  <h1 align=center>My Work</h1>
+  <div class="whereto container">
+    <h3>WhereTo</h3>
+      <p>Getting into arguments with colleagues on where to get lunch?
+      WhereTo is an app that not only allow users to vote on nearby food places but also
+    allows you to create an order.</p>
+    <a name="projects"></a>
+    <p><strong>Technologies used:</strong>Ruby, Ruby on Rails, and PostgreSQL.</p>
+  </div>
+  <div class="g2p">
+
+  </div>
+</article>
+
   <footer>
     <div class="social-links">
     <ul align=center>
-      <li><a href="www.twitter.com" target="_blank"><i class="fab fa-twitter fa-3x"></i></a></li>
-      <li><a href="www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in fa-3x"></i></a></li>
-      <li><a href="www.github.com" target="_blank"><i class="fab fa-github fa-3x"></i></a></li>
+      <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter fa-3x"></i></a></li>
+      <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in fa-3x"></i></a></li>
+      <li><a href="https://www.github.com/adamn1225" target="_blank"><i class="fab fa-github fa-3x"></i></a></li>
     </ul>
+    <i class="fab fa-copyright"></i> <span style="font-weight:bold">Adam Noah</span>. All rights reservied.
   </div>
   </footer>
+  <script>$(document).ready(function() {
+  $('.projects').click(function(event) {
+    $('body, html').animate({
+      scrollTop: $("#projects").offset().top
+    }, 600);
+
+  });
+});</script>
   </body>
 </html>

@@ -1,5 +1,6 @@
 li {
   list-style: none;
+  text-decoration: none;
 }
 
 a:link {
@@ -10,16 +11,19 @@ a:link {
 
 a:link {
   color: black;
+  text-decoration: none;
 }
 
 /* visited link */
 a:visited {
   color: black;
+  text-decoration: none;
 }
 
 /* mouse over link */
-a:hover {
+.header-nav a:hover {
   color: #32d96a;
+  text-decoration: none;
 }
 
 /* selected link */
@@ -35,13 +39,22 @@ a:active {
 
 .header-nav ul li {
   display: inline;
-  margin: auto 50px;
+  margin: auto 80px;
 }
 
 .logo {
   color:black;
-  margin-left: 25px;
+  margin-left: 20px;
   margin-top: 25px;
+}
+
+.first-initial {
+  padding-left: 0px;
+}
+
+.last-initial {
+  /* color:#32d96a; */
+  margin-left: 20px;
 }
 
 .logo2 {
@@ -71,11 +84,19 @@ section:after {
   clear: both;
 }
 
+@media (max-width: 600px) {
+  .about-me, .left-panel {
+    padding:10px;
+    width: 100%;
+    height: auto;
+  }
+}
+
 .work-experience {
   margin-top:0px;
-  padding: 30px 0 30px 100px;
+  padding: 30px 0 120px 350px;
   background-color: #081c3b;
-  height: 50vh;
+  height:auto;
 }
 
 .work-experience h1 {
@@ -84,11 +105,20 @@ section:after {
 
 .work-experience h4 {
   color: #32d96a;
-  
+
 }
 
 .work-experience p {
   color: white;
+}
+
+@media (max-width: 600px) {
+  .work-experience {
+    padding: 0;
+    margin:0;
+    width: auto;
+    height: auto;
+  }
 }
 
 .current-role {
@@ -110,11 +140,24 @@ section:after {
   color:white;
 }
 
+.projects {
+  padding-top:30px;
+}
+
+.whereto p{
+  text-overflow: clip;
+}
+
 .social-links {
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .social-links li {
   display: inline;
   margin: auto 60px;
+}
+
+.social-links a:hover {
+  color: #32d96a;
 }
