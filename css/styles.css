@@ -34,7 +34,7 @@ a:active {
 .header-nav {
   border-bottom: #32d96a;
   border-bottom-style: solid;
-  border-width: medium;
+  border-width: thin;
 }
 
 .header-nav ul li {
@@ -94,22 +94,26 @@ section:after {
 
 .work-experience {
   margin-top:0px;
-  padding: 30px 0 120px 350px;
+  padding: 30px 0 120px 270px;
   background-color: #081c3b;
   height:auto;
 }
 
 .work-experience h1 {
   color: white;
+  margin-left: 390px;
 }
 
-.work-experience h4 {
+.work-experience h2 {
+  padding: 0;
+  margin: 0;
   color: #32d96a;
 
 }
 
 .work-experience p {
   color: white;
+  font-size: 18px;
 }
 
 @media (max-width: 600px) {
@@ -121,9 +125,14 @@ section:after {
   }
 }
 
+.roles-played {
+  margin-right: 30px;
+}
+
 .current-role {
   display: inline;
   float:left;
+  margin-left: 0;
 }
 
 .current-role li {
@@ -140,12 +149,22 @@ section:after {
   color:white;
 }
 
-.projects {
-  padding-top:30px;
+.mywork {
+  margin-top:30px;
 }
 
-.whereto p{
-  text-overflow: clip;
+.projects {
+  margin:0;
+  margin-bottom:70px;
+}
+
+.skills {
+background-color: #081c3b;
+height: 40vh;
+}
+
+.skills div h2 {
+  color:#32d96a;
 }
 
 .social-links {
