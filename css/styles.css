@@ -125,28 +125,18 @@ section:after {
   }
 }
 
-.roles-played {
-  margin-right: 30px;
-}
-
-.current-role {
-  display: inline;
-  float:left;
-  margin-left: 0;
-}
-
 .current-role li {
   color: white;
 }
 
-.previous-role {
-  float: left;
-  margin-top: 0px;
-  margin-left: 100px;
-}
-
 .previous-role li {
   color:white;
+}
+
+.resume-link {
+  margin-left: 38%;
+  display: table;
+  vertical-align: bottom;
 }
 
 .mywork {
