@@ -53,11 +53,6 @@ a:active {
   color: #32d96a;
 }
 
-.about-me {
-margin-top: 200px;
-margin-bottom: 200px;
-}
-
 section:after {
   content: "";
   display: table;
@@ -73,6 +68,8 @@ section:after {
 }
 
 .work-experience {
+  margin-top: 200px;
+  margin-bottom: 200px;
   padding-bottom: 30px;
   height:auto;
 }
@@ -95,8 +92,6 @@ section:after {
   }
 }
 
-
-
 .roles-played {
   margin: 50px 0 0 50px;
 }
@@ -113,18 +108,58 @@ section:after {
   margin-left: 45%;
 }
 
+.projects {
+  margin-left: 62px;
+}
 
 .mywork {
   margin-top: 200px;
-  margin-bottom:70px;
+}
+
+.whereto {
+  box-shadow: 10px 10px 33px -2px rgba(0,0,0,0.43);
+  padding: 20px;
+}
+
+.whereto h3{
+  color: #32d96a;
+}
+
+.whereto a:hover {
+  color: #32d96a;
+  text-decoration: none;
+}
+
+.whereto a:link {
+  font-size: 17px;
+}
+
+.g2p {
+  box-shadow: 10px 10px 33px -2px rgba(0,0,0,0.43);
+  padding: 20px;
+  margin-top:20px;
+}
+
+.g2p a:hover {
+  color: #32d96a;
+  text-decoration: none;
+}
+
+.g2p a:link {
+  font-size: 17px;
+}
+
+.g2p h3{
+  color: #32d96a;
 }
 
 .skills {
-height: 40vh;
+  margin-left: 130px;
+  height: 20vh;
 }
 
-.skills div h2 {
-  color:#32d96a;
+.contact-me {
+  margin-bottom: 50px;
 }
 
 .social-links {
