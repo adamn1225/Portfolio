@@ -1,3 +1,9 @@
+
+body {
+  background: rgb(255,255,255);
+  background: linear-gradient(171deg, rgba(255,255,255,1) 26%, rgba(244,244,244,1) 26%, rgba(244,244,244,1) 60%, rgba(255,255,255,1) 60%);
+}
+
 li {
   list-style: none;
   text-decoration: none;
@@ -31,11 +37,7 @@ a:active {
   color: blue;
 }
 
-.header-nav {
-  border-bottom: #32d96a;
-  border-bottom-style: solid;
-  border-width: thin;
-}
+
 
 .header-nav ul li {
   display: inline;
@@ -43,39 +45,17 @@ a:active {
 }
 
 .logo {
-  color:black;
-  margin-left: 20px;
+  margin-left: 100px;
   margin-top: 25px;
 }
 
-.first-initial {
-  padding-left: 0px;
-}
-
-.last-initial {
-  /* color:#32d96a; */
-  margin-left: 20px;
-}
-
 .logo2 {
-  color:#32d96a;
-  margin-left: 25px;
+  color: #32d96a;
 }
 
 .about-me {
-  margin-top:50px;
-  float: left;
-  padding: 120px;
-  width: 70%;
-}
-
-.left-panel {
-  background-image: url(../images/portfolio-img-sketch.jpeg);
-  background-size: ;
-  height: 580px;
-  float: left;
-  width: 27%;
-  padding: 10px;
+margin-top: 200px;
+margin-bottom: 200px;
 }
 
 section:after {
@@ -93,26 +73,16 @@ section:after {
 }
 
 .work-experience {
-  margin-top:0px;
-  padding: 30px 0 120px 270px;
-  background-color: #081c3b;
+  padding-bottom: 30px;
   height:auto;
 }
 
-.work-experience h1 {
-  color: white;
-  margin-left: 390px;
-}
-
 .work-experience h2 {
-  padding: 0;
-  margin: 0;
   color: #32d96a;
 
 }
 
 .work-experience p {
-  color: white;
   font-size: 18px;
 }
 
@@ -125,6 +95,12 @@ section:after {
   }
 }
 
+
+
+.roles-played {
+  margin: 50px 0 0 50px;
+}
+
 .current-role li {
   color: white;
 }
@@ -134,22 +110,16 @@ section:after {
 }
 
 .resume-link {
-  margin-left: 38%;
-  display: table;
-  vertical-align: bottom;
+  margin-left: 45%;
 }
+
 
 .mywork {
-  margin-top:30px;
-}
-
-.projects {
-  margin:0;
+  margin-top: 200px;
   margin-bottom:70px;
 }
 
 .skills {
-background-color: #081c3b;
 height: 40vh;
 }
 
