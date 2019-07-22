@@ -93,7 +93,7 @@ section:after {
 }
 
 .roles-played {
-  margin: 50px 0 0 50px;
+  margin: 50px 0 50px 50px;
 }
 
 .current-role li {
@@ -105,7 +105,15 @@ section:after {
 }
 
 .resume-link {
-  margin-left: 45%;
+  margin-left: 43%;
+}
+
+.resume-dl {
+  color:white;
+}
+
+.resume-link a:hover {
+  color: #32d96a;
 }
 
 .projects {
