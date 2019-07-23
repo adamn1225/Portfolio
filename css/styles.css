@@ -133,6 +133,10 @@ section:after {
   color: #32d96a;
 }
 
+.whereto img {
+  margin: 10px 35px 10px;
+}
+
 .whereto a:hover {
   color: #32d96a;
   text-decoration: none;
