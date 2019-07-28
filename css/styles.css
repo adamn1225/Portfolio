@@ -37,8 +37,6 @@ a:active {
   color: blue;
 }
 
-
-
 .header-nav ul li {
   display: inline;
   margin: auto 80px;
@@ -69,14 +67,13 @@ section:after {
 
 .work-experience {
   margin-top: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   padding-bottom: 30px;
   height:auto;
 }
 
 .work-experience h2 {
   color: #32d96a;
-
 }
 
 .work-experience p {
@@ -165,10 +162,18 @@ section:after {
   color: #32d96a;
 }
 
+
+
 .skills {
-  margin-left: 130px;
-  height: 20vh;
+    font-size: .8rem;
+    line-height: 1.5;
+    color: #555;
+    text-align: center;
 }
+
+ .Skills-r2 {
+   margin: 40px 0 40px 0;
+ }
 
 .contact-me {
   margin-bottom: 50px;
