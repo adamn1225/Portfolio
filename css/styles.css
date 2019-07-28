@@ -67,7 +67,11 @@ section:after {
 
 .work-experience {
   margin-top: 200px;
+<<<<<<< HEAD
   margin-bottom: 100px;
+=======
+  margin-bottom: 125px;
+>>>>>>> 8be0211c1befaeb2e8815d96ded03f9806a20edb
   padding-bottom: 30px;
   height:auto;
 }
@@ -118,7 +122,7 @@ section:after {
 }
 
 .mywork {
-  margin-top: 200px;
+  margin-top: 125px;
 }
 
 .whereto {
