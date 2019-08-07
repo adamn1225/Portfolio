@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 
 body {
   background: rgb(255,255,255);
@@ -47,6 +51,12 @@ a:active {
   margin-top: 25px;
 }
 
+@media (max-width: 600px) {
+  .logo {
+    margin-left: 95px;
+  }
+}
+
 .logo2 {
   color: #32d96a;
 }
@@ -67,11 +77,8 @@ section:after {
 
 .work-experience {
   margin-top: 200px;
-<<<<<<< HEAD
   margin-bottom: 100px;
-=======
   margin-bottom: 125px;
->>>>>>> 8be0211c1befaeb2e8815d96ded03f9806a20edb
   padding-bottom: 30px;
   height:auto;
 }
@@ -94,7 +101,7 @@ section:after {
 }
 
 .roles-played {
-  margin: 50px 0 50px 50px;
+  margin: 50px 0;
 }
 
 .current-role li {
@@ -106,7 +113,6 @@ section:after {
 }
 
 .resume-link {
-  margin-left: 43%;
 }
 
 .resume-dl {
@@ -118,7 +124,7 @@ section:after {
 }
 
 .projects {
-  margin-left: 62px;
+  margin-left: 0;
 }
 
 .mywork {
@@ -137,6 +143,13 @@ section:after {
 
 .whereto img {
   margin: 10px 35px 10px;
+}
+
+@media (max-width: 600px) {
+  .whereto img {
+    width: 75%;
+    height: auto;
+  }
 }
 
 .whereto a:hover {
@@ -190,8 +203,14 @@ section:after {
 }
 
 .social-links li {
-  display: inline;
-  margin: auto 60px;
+  display: inline-block;
+  margin:60px;
+}
+
+@media (max-width: 600px) {
+  .social-links li {
+    margin: 7px;
+  }
 }
 
 .social-links a:hover {
