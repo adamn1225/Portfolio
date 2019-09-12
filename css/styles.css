@@ -32,8 +32,20 @@ a:visited {
 
 /* mouse over link */
 .header-nav a:hover {
-  color: #32d96a;
+  color: #6b34eb;
   text-decoration: none;
+}
+
+nav p {
+  display: inline-block;
+  margin: 50px;
+}
+
+@media (max-width: 600px) {
+  nav p {
+    margin:10px;
+    display: block;
+  }
 }
 
 /* selected link */
@@ -58,7 +70,11 @@ a:active {
 }
 
 .logo2 {
-  color: #32d96a;
+  color: #6b34eb;
+}
+
+.top-header {
+  margin-bottom:15vh;
 }
 
 section:after {
@@ -76,16 +92,16 @@ section:after {
 }
 
 .work-experience {
-  margin-top: 200px;
+  margin-top: 110px;
   margin-bottom: 100px;
   margin-bottom: 125px;
   padding-bottom: 30px;
   height:auto;
 }
 
-.work-experience h2 {
-  color: #32d96a;
-}
+/* .work-experience h2 {
+  color: #6b34eb;
+} */
 
 .work-experience p {
   font-size: 18px;
@@ -120,7 +136,7 @@ section:after {
 }
 
 .resume-link a:hover {
-  color: #32d96a;
+  color: #6b34eb;
 }
 
 .projects {
@@ -138,11 +154,16 @@ section:after {
 }
 
 .whereto h3{
-  color: #32d96a;
+  color: #6b34eb;
 }
 
 .whereto img {
   margin: 10px 35px 10px;
+}
+
+.whereto img {
+  width: 22%;
+  height: auto;
 }
 
 @media (max-width: 600px) {
@@ -153,7 +174,7 @@ section:after {
 }
 
 .whereto a:hover {
-  color: #32d96a;
+  color: #6b34eb;
   text-decoration: none;
 }
 
@@ -161,14 +182,14 @@ section:after {
   font-size: 17px;
 }
 
-.g2p {
+/* .g2p {
   box-shadow: 10px 10px 33px -2px rgba(0,0,0,0.43);
   padding: 20px;
   margin-top:20px;
 }
 
 .g2p a:hover {
-  color: #32d96a;
+  color: #6b34eb;
   text-decoration: none;
 }
 
@@ -177,9 +198,271 @@ section:after {
 }
 
 .g2p h3{
-  color: #32d96a;
+  color: #6b34eb;
+} */
+
+
+#popimg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
+#popimg:hover {opacity: 0.7;}
+
+#popimg2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#popimg2:hover {opacity: 0.7;}
+
+#popimg3 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#popimg3:hover {opacity: 0.7;}
+
+#popimg4 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#popimg4:hover {opacity: 0.7;}
+
+#popimg5 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#popimg5:hover {opacity: 0.7;}
+
+#popimg6 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#popimg6:hover {opacity: 0.7;}
+
+#popimg7 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#popimg7:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  /* display: block; */
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+#caption1 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption1 {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+#caption2 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption2 {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+#caption3 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption3 {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+#caption4 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption4 {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+#caption5 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption5 {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption6 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption7 {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption7 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption6 {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute !important;
+  top: 15px !important;
+  right: 35px !important;
+  color: #f1f1f1 !important;
+  font-size: 82px !important;
+  font-weight: bold !important;
+  transition: 0.3s !important;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
 
 
 .skills {
@@ -187,6 +470,11 @@ section:after {
     line-height: 1.5;
     color: #555;
     text-align: center;
+    margin-bottom: 20vh;
+}
+
+.skills>div>h1 {
+  margin-bottom: 72px;
 }
 
  .Skills-r2 {
@@ -214,5 +502,5 @@ section:after {
 }
 
 .social-links a:hover {
-  color: #32d96a;
+  color: #6b34eb;
 }

@@ -11,15 +11,15 @@
 </head>
 <header>
   <div class="header-nav">
-    <div class="logo">
-      <h2>ADAM<span class="logo2">NOAH</span>
-    </div>
+    <!-- <div class="logo">
+      <h2>ADAM<span class="logo2">NOAH</span></h2>
+    </div> -->
     <nav align=center>
-      <ul>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+
+        <p><a href="#projects">Projects</a></p>
+        <p><a href="#skills">Skills</a></p>
+        <p><a href="#contact">Contact</a></p>
+
     </nav>
   </div>
 </header>
@@ -27,11 +27,10 @@
 <body data-gr-c-s-loaded="true">
 
   <article align=center class="container work-experience">
-    <h1>About Me</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-      voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+    <div class="top-header">
+      <h1>ADAM<span class="logo2">NOAH</span></h1>
+    <h3>Full Stack Web Developer</h3>
+    </div>
     <div class="container">
       <div class="roles-played col-lg-12 col-md-12">
 
@@ -57,25 +56,77 @@
           <p>Getting into arguments with colleagues on where to get lunch?
             WhereTo is an app that not only allow users to vote on nearby food places but also
             allows you to create an order.</p>
-            <img src="images/wheretojsx.png" alt="WhereTo code">
-            <img src="images/whereto.png" alt="WhereTo App">
+
+            <img src="images/wheretojsx.png" id="popimg" alt="WhereTo code">
+            <div id="popup" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+            </div>
+
+            <img src="images/whereto.png" id="popimg2" alt="WhereTo App">
+            <div id="popup2" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img02">
+            <div id="caption2"></div>
+            </div>
+
           <p><strong>Technologies used:</strong> Ruby, Ruby on Rails, and PostgreSQL.</p>
           <p>checkout this project on <a href="https://github.com/adamn1225/WhereTo"><strong>Github</strong></p></a>
         </div>
-        <div class="g2p">
+        <div class="whereto">
           <h3>G2P</h3>
           <p>Lost in a new city and can't hold it in any longer? The G2P
             was designed to find the nearest location with an available bathroom.
             Hope it all comes out okay.</p>
+            <img src="images/g2pdata.png" id="popimg3" alt="WhereTo code">
+            <div id="popup3" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img03">
+            <div id="caption3"></div>
+            </div>
+            <img src="images/g2papp.png" id="popimg4" alt="WhereTo App">
+            <div id="popup4" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img04">
+            <div id="caption4"></div>
+            </div>
+
           <p><strong>Technologies used:</strong> ReactJS, Google Maps API</p>
           <p>checkout this project on <a href="https://github.com/adamn1225/g2p"><strong>Github</strong></p></a>
         </div>
+        <div class="whereto">
+          <h3>Getpromovers.com</h3>
+          <p>Looking for professional home movers? Need a quote? Fill out your information and get quotes from local moving companies!</p>
+          <img src="images/zipapi.png" id="popimg5" alt="Zipcode API">
+          <div id="popup5" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img05">
+          <div id="caption5"></div>
+          </div>
+          <img src="images/zipcode.png" id="popimg6" alt="zipcode js">
+          <div id="popup6" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img06">
+          <div id="caption6"></div>
+          </div>
+          <img src="images/getprocode.png" id="popimg7" alt="code for getpromovers.com">
+          <div id="popup7" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img07">
+          <div id="caption7"></div>
+          </div>
+          <p><strong>Technologies used:</strong> HTML, CSS, JavaScript, Zip Code Api</p>
+          <p>Site is live <a href="https://www.getpromovers.com"><strong>www.getpromovers.com</strong></p></a>
+        </div>
       </div>
     </div>
+      <a name="skills"></a>
   </article>
-  <a name="skills"></a>
+
   <section class="skills">
     <div class="container">
+      <h1>My Skills</h1>
       <div class="col-lg-12 col-md-12 col-sm-12">
         <div class="col-lg-3 col-md-3 col-sm-3">
           <i class="fab fa-html5 fa-5x"></i>
@@ -115,26 +166,30 @@
     </div>
   </section>
   <a name="contact"></a>
-  <form align=center class="contact-me container" action="index.html" method="post">
-    <h2>Let's work together!</h2>
-    <p>Looking for a partner to work on a fun & amazing idea?</p>
+  <form align=center class="contact-me" action="index.html" method="post">
+    <h1>Let's work together</h1>
+    <h4>Looking for a partner to work on a fun & amazing idea? Let me know!</h4><br />
     <label>Name:</label>
-    <input type="text" name="" placeholder="name">
+    <input type="text" name="" placeholder="name"><br /><br>
     <label>Email:</label>
     <input type="email" name="" placeholder="email"><br><br>
+    <label for="project">Explain Your Project:</label><br />
+    <textarea name="name" rows="8" cols="40"></textarea><br /><br>
+    <input type="button" value="submit"></input>
   </form>
 
 
   <footer>
     <div align=center class="social-links container">
-      <ul>
-        <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter fa-3x"></i></a></li>
-        <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in fa-3x"></i></a></li>
+
+        <li><a href="https://twitter.com/lX____Xl" target="_blank"><i class="fab fa-twitter fa-3x"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/adamnoah1225/" target="_blank"><i class="fab fa-linkedin-in fa-3x"></i></a></li>
         <li><a href="https://www.github.com/adamn1225" target="_blank"><i class="fab fa-github fa-3x"></i></a></li>
-      </ul>
+        <br />
       <i class="fab fa-copyright"></i><span style="font-weight:bold">Adam Noah</span>. All rights reservied.
     </div>
   </footer>
+  <script src="js/index.js"></script>
   <script>
     $(document).ready(function() {
       $('.projects').click(function(event) {
