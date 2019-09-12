@@ -166,15 +166,17 @@
     </div>
   </section>
   <a name="contact"></a>
-  <form align=center class="contact-me" action="index.html" method="post">
+  <form align=center class="contact-me" action="contactform.php" method="post">
     <h1>Let's work together</h1>
     <h4>Looking for a partner to work on a fun & amazing idea? Let me know!</h4><br />
     <label>Name:</label>
-    <input type="text" name="" placeholder="name"><br /><br>
+    <input type="text" name="name" placeholder="name"><br /><br>
     <label>Email:</label>
-    <input type="email" name="" placeholder="email"><br><br>
+    <input type="email" name="mail" placeholder="email"><br><br>
     <label for="project">Explain Your Project:</label><br />
-    <textarea name="name" rows="8" cols="40"></textarea><br /><br>
+    <label>Subject:</label><br>
+    <input type="text" name="subject">
+    <textarea name="message" rows="8" cols="40"></textarea><br /><br>
     <input type="button" value="submit"></input>
   </form>
 
