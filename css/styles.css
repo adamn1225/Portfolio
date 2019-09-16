@@ -240,16 +240,7 @@ section:after {
 @media (min-width: 768px) and (max-width: 1024px) {
   .gif-img img{
     height: auto !important;
-    width: 700px !important;
-  }
-}
-
-
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .gif-img img{
-    height: auto !important;
-    width: 700px !important;
+    width: 500px !important;
   }
 }
 
