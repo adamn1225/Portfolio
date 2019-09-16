@@ -230,7 +230,7 @@ section:after {
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1600px) {
+@media (min-width: 1025px) and (max-width: 1900px) {
   .gif-img img{
     height: auto !important;
     width: 700px !important;
