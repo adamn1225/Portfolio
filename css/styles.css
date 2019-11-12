@@ -109,50 +109,63 @@ a:active {
   }
 }
 
-.logo {
-  margin-left: 100px;
-  margin-top: 25px;
-}
-
-@media (max-width: 600px) {
-  .logo {
-    margin-left: 95px;
-  }
-}
-
 .logo2 {
   color: #3cbee6;
 }
 
 .fade {
-  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-   -moz-animation: fadein 1s; /* Firefox < 16 */
-    -ms-animation: fadein 1s; /* Internet Explorer */
-     -o-animation: fadein 1s; /* Opera < 12.1 */
-        animation: fadein 1s;
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+   opacity: 1 !important;
 }
 
-@keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
 
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
 
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
 
-/* Internet Explorer */
-@-ms-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
 
 .fade-2{
