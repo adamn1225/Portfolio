@@ -63,9 +63,11 @@ a:active {
 } */
 
 @media only screen and (min-width: 601px) {
+  .topnav {
     display: flex;
     justify-content: center;
     align-content: center;
+  }
 }
 
 .topnav i {
