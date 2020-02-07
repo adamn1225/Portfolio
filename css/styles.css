@@ -201,7 +201,7 @@ a:active {
 @keyframes slidein {
   from {
     opacity: 0;
-    margin-left: 100%;
+    margin-left: 70%;
     width: 100%;
   }
 
