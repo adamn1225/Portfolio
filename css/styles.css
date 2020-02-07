@@ -759,14 +759,14 @@ font-size:18px;
 cursor:pointer;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
    #popup{
      margin-left: 29%;
      margin-right: 10px;
      width:45%;
    }
 }
-
+ */
 .popup-contact a {
   color: #3cbee6;
   text-decoration: underline;
