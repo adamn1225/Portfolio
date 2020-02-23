@@ -1,5 +1,11 @@
 html {
   scroll-behavior: smooth;
+  }
+
+p, h1, h2, h3, h4, h5, a {
+  font-family: 'Yanone Kaffeesatz' ;
+  font-weight: 600;
+  font-size: 260%
 }
 
 * {
@@ -668,7 +674,6 @@ cursor:pointer
 display: flex;
 justify-content: center;
 margin-top: 10%;
-font-family:'Raleway',sans-serif
 }
 
 #popupContact > form > h1 {
@@ -688,7 +693,6 @@ min-width:250px;
 padding:10px 50px 40px;
 border:2px solid gray;
 border-radius:10px;
-font-family:raleway;
 background-color:#fff
 }
 p {
@@ -706,7 +710,6 @@ margin-top:30px;
 border:1px solid #ccc;
 padding-left:40px;
 font-size:16px;
-font-family:raleway
 }
 #name {
 background-image:url(../images/name.jpg);
@@ -729,7 +732,6 @@ margin-top:30px  !important;
 border:1px solid #ccc;
 padding-left:40px;
 font-size:16px  !important;
-font-family:raleway  !important;
 margin-bottom:30px !important;
 }
 #submit {
@@ -739,7 +741,6 @@ text-align:center;
 display:block;
 background-color:#3cbee6;
 color:#fff;
-border:1px solid #FFCB00;
 padding:10px 0;
 font-size:20px;
 cursor:pointer;
@@ -763,7 +764,6 @@ border-radius:3px;
 border:0;
 background-color:#3cbee6;
 color:#fff;
-font-family:'Raleway',sans-serif;
 font-size:18px;
 cursor:pointer;
 }
