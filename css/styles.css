@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+
   }
 
 p, h1, h2, h3, h4, h5, a {
@@ -13,10 +14,24 @@ p, h1, h2, h3, h4, h5, a {
 }
 
 
+
+@media only screen and (min-width: 601px) {
+  .top-background {
+    background-image: url(../images/hero-top.png);
+    background-size: inherit;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    z-index: 500;
+  }
+}
+
 body {
   background: rgb(255,255,255);
   background: linear-gradient(171deg, rgba(255,255,255,1) 16%, rgba(244,244,244,1) 16%, rgba(244,244,244,1) 50%, rgba(255,255,255,1) 42%);
+
 }
+
+
 
 li {
   list-style: none;
@@ -223,8 +238,7 @@ a:active {
 }
 
 .top-header {
-  margin-top:10vh;
-  margin-bottom:10vh;
+  width: 75%;
 }
 
 section:after {
@@ -263,6 +277,11 @@ section:after {
     width: auto;
     height: auto;
   }
+}
+
+.hero {
+  margin-top: 10em;
+  margin-bottom: 10em;
 }
 
 .roles-played {
@@ -795,6 +814,7 @@ cursor:pointer;
 .popup-contact a:active{
   text-decoration: none;
 }
+
 
 
 .social-links {
