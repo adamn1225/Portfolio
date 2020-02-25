@@ -665,9 +665,8 @@ background-color:#313131;
 overflow:auto;
 }
 p#close {
-position:absolute;
-right:22px;
-top:8px;
+display: flex;
+justify-content: flex-end;
 cursor:pointer
 }
 #popupContact {
