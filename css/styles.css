@@ -278,6 +278,13 @@ section:after {
 }
 
 .resume-link {
+    width: 200px;
+    height: 45px;
+    border-radius: 3px;
+    border: 0;
+    background-color: #3cbee6;
+    color: #fff;
+    font-size: 18px;
 }
 
 .resume-dl {
