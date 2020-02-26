@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Learning About Adam Noah</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 <link rel="shortcut icon" type="image/png" href="/A-fav.png"/>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -20,6 +21,7 @@
 
     <nav>
       <div class="topnav " id="myTopnav">
+        <p><a href="#"><span class="top">^</span></a></p>
         <p><a href="#projects">Projects</a></p>
         <p><a href="#skills">Skills</a></p>
         <p><a href="#contact">Contact</a></p>
@@ -236,6 +238,17 @@
       x.className = "topnav";
     }
   }
+  </script>
+  <script>
+    $(document).scroll(function () {
+    var y = $(this).scrollTop();
+    if (y > 1200) {
+        $('.top').fadeIn();
+    } else {
+        $('.top').fadeOut();
+    }
+
+});
   </script>
 </body>
 

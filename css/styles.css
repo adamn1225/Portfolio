@@ -89,11 +89,24 @@ a:active {
 
 @media only screen and (min-width: 601px) {
   .topnav {
+    position: fixed;
+    top: 100px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: left;
     align-content: center;
-  }
+
+  } 
 }
+
+.top {
+  display: none;
+  font-size: 60px;
+  color: #3cbee6;
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+
 
 .topnav i {
   margin-right: 10px;
