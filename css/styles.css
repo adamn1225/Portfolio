@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-
+  overflow-x:hidden; 
   }
 
 p, h1, h2, h3, h4, h5, a {
@@ -28,7 +28,7 @@ p, h1, h2, h3, h4, h5, a {
 body {
   background: rgb(255,255,255);
   background: linear-gradient(171deg, rgba(255,255,255,1) 16%, rgba(244,244,244,1) 16%, rgba(244,244,244,1) 50%, rgba(255,255,255,1) 42%);
-
+   
 }
 
 
@@ -219,14 +219,15 @@ a:active {
 }
 
 .slide {
-  -webkit-animation-name: slidein;
-  -webkit-animation-duration: 2s;
+  animation-duration: 3s;
+  animation-name: slidein;
+  overflow-x:hidden; 
 }
 
 @keyframes slidein {
   from {
     opacity: 0;
-    margin-left: 70%;
+    margin-left: 100%;
     width: 100%;
   }
 
@@ -238,7 +239,7 @@ a:active {
 }
 
 .top-header {
-  width: 75%;
+  width: 100%;
 }
 
 section:after {
