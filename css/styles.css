@@ -202,8 +202,8 @@ a:active {
 }
 
 .fade-2{
-    -webkit-animation: 10s ease 0s normal forwards 1 fadein;
-    animation: 6s ease 0s normal forwards 1 fadein;
+    -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+    animation: 3s ease 0s normal forwards 1 fadein;
 }
 
 @keyframes fadein{
@@ -220,7 +220,7 @@ a:active {
 
 .slide {
   -webkit-animation-name: slidein;
-  -webkit-animation-duration: 7s;
+  -webkit-animation-duration: 2s;
 }
 
 @keyframes slidein {
