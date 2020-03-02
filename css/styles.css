@@ -87,10 +87,10 @@ a:active {
   overflow: hidden;
 } */
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 1400px) {
   .topnav {
     position: fixed;
-    top: 100px;
+    top: 200px;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -99,8 +99,24 @@ a:active {
   } 
 }
 
+@media only screen and (max-width: 1399px) {
+  .topnav {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+  } 
+}
+
+@media only screen and (max-width: 1399px) {
+  .no-top {
+    display: none;
+  } 
+}
+
 .top {
-  display: none;
   font-size: 60px;
   color: #3cbee6;
   border: 2px solid black;
