@@ -112,7 +112,7 @@ a:active {
 
 @media only screen and (max-width: 1399px) {
   .no-top {
-    display: none;
+    display: none !important;
   } 
 }
 
