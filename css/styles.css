@@ -117,6 +117,7 @@ a:active {
 }
 
 .top {
+  display: none;
   font-size: 60px;
   color: #3cbee6;
   border: 2px solid black;
