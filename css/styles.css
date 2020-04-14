@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  overflow-x:hidden; 
+  overflow-x:hidden;
   }
 
 p, h1, h2, h3, h4, h5, a {
@@ -28,7 +28,7 @@ p, h1, h2, h3, h4, h5, a {
 body {
   background: rgb(255,255,255);
   background: linear-gradient(171deg, rgba(255,255,255,1) 16%, rgba(244,244,244,1) 16%, rgba(244,244,244,1) 50%, rgba(255,255,255,1) 42%);
-   
+
 }
 
 
@@ -96,24 +96,22 @@ a:active {
     justify-content: left;
     align-content: center;
 
-  } 
+  }
 }
 
 @media only screen and (max-width: 1399px) {
   .topnav {
-    position: relative;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-content: flex-end;
-
-  } 
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 1399px) {
   .no-top {
     display: none !important;
-  } 
+  }
 }
 
 .top {
@@ -251,7 +249,7 @@ a:active {
 .slide {
   animation-duration: 3s;
   animation-name: slidein;
-  overflow-x:hidden; 
+  overflow-x:hidden;
 }
 
 @keyframes slidein {
