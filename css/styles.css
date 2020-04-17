@@ -90,7 +90,7 @@ a:active {
 @media only screen and (min-width: 1400px) {
   .topnav {
     position: fixed;
-    top: 200px;
+    top: 150px;
     display: flex;
     flex-direction: column;
     justify-content: left;
